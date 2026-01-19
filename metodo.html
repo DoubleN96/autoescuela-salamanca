@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nuestro Método | Autoescuela Salamanca PRO</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;700;800&family=Inter:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: { 'head': ['Plus Jakarta Sans', 'sans-serif'], 'body': ['Inter', 'sans-serif'] },
+                    colors: { 'auto-primary': '#4F46E5', 'auto-dark': '#1E1B4B', 'auto-accent': '#F59E0B', 'auto-light': '#EEF2FF' }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-white text-slate-800 font-body">
+
+    <nav class="fixed w-full bg-white/90 backdrop-blur-md z-40 border-b border-slate-100">
+        <div class="container mx-auto px-6 h-20 flex justify-between items-center">
+            <a href="index.html" class="flex items-center gap-2">
+                <div class="w-10 h-10 bg-auto-primary rounded-xl flex items-center justify-center text-white font-head font-bold text-xl">S</div>
+                <span class="font-head font-bold text-xl text-auto-dark">Autoescuela Salamanca</span>
+            </a>
+            <div class="hidden md:flex gap-8 font-medium text-sm text-slate-500">
+                <a href="index.html" class="hover:text-auto-primary">Inicio</a>
+                <a href="metodo.html" class="text-auto-primary font-bold">Método Online</a>
+                <a href="amaxofobia.html" class="hover:text-auto-primary">Amaxofobia</a>
+                <a href="contacto.html" class="hover:text-auto-primary">Contacto</a>
+            </div>
+            <a href="contacto.html" class="hidden md:block bg-auto-dark text-white px-6 py-2.5 rounded-full font-bold hover:bg-auto-primary transition-colors">Matricúlate</a>
+        </div>
+    </nav>
+
+    <main class="pt-32 pb-20">
+        <div class="container mx-auto px-6">
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <h1 class="text-4xl md:text-6xl font-head font-extrabold text-auto-dark mb-6">Aprende a tu ritmo,<br>desde donde quieras.</h1>
+                <p class="text-xl text-slate-500">Hemos digitalizado la autoescuela tradicional. El mismo contenido de calidad, pero en tu bolsillo.</p>
+            </div>
+
+            <!-- Steps -->
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center mb-24">
+                <div class="order-2 md:order-1">
+                    <div class="bg-auto-light p-8 rounded-[2rem]">
+                        <img src="https://images.unsplash.com/photo-1731834451628-5f591a73a3c3?ixlib=rb-4.1.0&q=80" class="rounded-2xl shadow-lg w-full transform rotate-1 hover:rotate-0 transition-transform" alt="App movil">
+                    </div>
+                </div>
+                <div class="order-1 md:order-2 space-y-8">
+                    <div class="flex gap-4">
+                        <div class="w-12 h-12 bg-auto-primary rounded-full flex items-center justify-center text-white font-bold text-xl flex-shrink-0">1</div>
+                        <div>
+                            <h3 class="text-xl font-bold text-auto-dark mb-2">Clases en Streaming</h3>
+                            <p class="text-slate-600">Conéctate a las clases teóricas en directo con nuestros profesores o ve las grabaciones cuando tengas tiempo libre.</p>
+                        </div>
+                    </div>
+                    <div class="flex gap-4">
+                        <div class="w-12 h-12 bg-auto-primary rounded-full flex items-center justify-center text-white font-bold text-xl flex-shrink-0">2</div>
+                        <div>
+                            <h3 class="text-xl font-bold text-auto-dark mb-2">Test Inteligentes</h3>
+                            <p class="text-slate-600">Nuestra plataforma utiliza IA para recomendarte preguntas en las que sueles fallar. Optimiza tu tiempo de estudio.</p>
+                        </div>
+                    </div>
+                    <div class="flex gap-4">
+                        <div class="w-12 h-12 bg-auto-primary rounded-full flex items-center justify-center text-white font-bold text-xl flex-shrink-0">3</div>
+                        <div>
+                            <h3 class="text-xl font-bold text-auto-dark mb-2">Profesor WhatsApp 24/7</h3>
+                            <p class="text-slate-600">¿Dudas un domingo por la tarde? Envía un audio a tu tutor asignado y te responderá con una explicación personalizada.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="bg-white border-t border-slate-100 py-12 text-center text-sm text-slate-400">
+        <p>© 2026 Autoescuela Salamanca Pro.</p>
+    </footer>
+
+</body>
+</html>
