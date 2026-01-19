@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amaxofobia | Autoescuela Salamanca PRO</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;700;800&family=Inter:wght@400;600&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: { 'head': ['Plus Jakarta Sans', 'sans-serif'], 'body': ['Inter', 'sans-serif'] },
+                    colors: { 'auto-primary': '#4F46E5', 'auto-dark': '#1E1B4B', 'auto-accent': '#F59E0B', 'auto-light': '#EEF2FF' }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-slate-50 text-slate-800 font-body">
+
+    <nav class="fixed w-full bg-white/90 backdrop-blur-md z-40 border-b border-slate-100">
+        <div class="container mx-auto px-6 h-20 flex justify-between items-center">
+            <a href="index.html" class="flex items-center gap-2">
+                <div class="w-10 h-10 bg-auto-primary rounded-xl flex items-center justify-center text-white font-head font-bold text-xl">S</div>
+                <span class="font-head font-bold text-xl text-auto-dark">Autoescuela Salamanca</span>
+            </a>
+            <div class="hidden md:flex gap-8 font-medium text-sm text-slate-500">
+                <a href="index.html" class="hover:text-auto-primary">Inicio</a>
+                <a href="metodo.html" class="hover:text-auto-primary">Método Online</a>
+                <a href="amaxofobia.html" class="text-auto-primary font-bold">Amaxofobia</a>
+                <a href="contacto.html" class="hover:text-auto-primary">Contacto</a>
+            </div>
+            <a href="contacto.html" class="hidden md:block bg-auto-dark text-white px-6 py-2.5 rounded-full font-bold hover:bg-auto-primary transition-colors">Matricúlate</a>
+        </div>
+    </nav>
+
+    <main class="pt-32 pb-20">
+        <div class="container mx-auto px-6">
+            <div class="max-w-3xl mx-auto text-center mb-16">
+                <span class="text-auto-primary font-bold uppercase tracking-widest text-sm bg-white px-4 py-1 rounded-full shadow-sm">Supera el Miedo</span>
+                <h1 class="text-4xl md:text-5xl font-head font-extrabold text-auto-dark mt-6 mb-6">Volverás a disfrutar de conducir.</h1>
+                <p class="text-lg text-slate-500">La amaxofobia afecta al 30% de los conductores. No estás solo/a. Nuestro método combina psicología y práctica progresiva.</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-16">
+                <div class="bg-white p-8 rounded-3xl shadow-sm hover:shadow-lg transition-shadow border border-slate-100">
+                    <h3 class="text-xl font-bold text-auto-dark mb-4">1. Evaluación</h3>
+                    <p class="text-slate-600">Entrevista personal con nuestro psicólogo vial para entender el origen de tu ansiedad y diseñar un plan a medida.</p>
+                </div>
+                <div class="bg-white p-8 rounded-3xl shadow-sm hover:shadow-lg transition-shadow border border-slate-100">
+                    <h3 class="text-xl font-bold text-auto-dark mb-4">2. Realidad Virtual</h3>
+                    <p class="text-slate-600">Enfréntate a situaciones de tráfico en un entorno controlado y seguro antes de salir a la carretera real.</p>
+                </div>
+                <div class="bg-white p-8 rounded-3xl shadow-sm hover:shadow-lg transition-shadow border border-slate-100">
+                    <h3 class="text-xl font-bold text-auto-dark mb-4">3. Práctica Acompañada</h3>
+                    <p class="text-slate-600">Clases de conducción con profesores especializados en gestión del estrés. Avanzamos a tu velocidad.</p>
+                </div>
+            </div>
+
+            <div class="bg-auto-dark text-white rounded-[3rem] p-12 text-center relative overflow-hidden">
+                <div class="relative z-10">
+                    <h2 class="text-3xl font-head font-bold mb-6">Da el primer paso hoy</h2>
+                    <p class="mb-8 text-slate-300">La primera sesión de evaluación es gratuita y sin compromiso.</p>
+                    <a href="contacto.html" class="inline-block bg-white text-auto-dark px-10 py-4 rounded-xl font-bold hover:bg-auto-primary hover:text-white transition-colors">
+                        Solicitar Evaluación
+                    </a>
+                </div>
+                <div class="absolute inset-0 bg-gradient-to-r from-auto-primary to-purple-600 opacity-20"></div>
+            </div>
+        </div>
+    </main>
+
+</body>
+</html>
