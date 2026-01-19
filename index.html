@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Autoescuela Salamanca PRO | Tu Carnet en Tiempo Récord</title>
+    <meta name="description" content="Sácate el carnet de conducir en Salamanca con nuestro método intensivo. Clases online 24h, coches modernos y especialistas en Amaxofobia.">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;700;800&family=Inter:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        'head': ['Plus Jakarta Sans', 'sans-serif'],
+                        'body': ['Inter', 'sans-serif']
+                    },
+                    colors: {
+                        'auto-primary': '#4F46E5', // Indigo vibrante
+                        'auto-dark': '#1E1B4B',
+                        'auto-accent': '#F59E0B', // Amber para CTAs
+                        'auto-light': '#EEF2FF'
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-white text-slate-800 font-body antialiased">
+
+    <!-- WhatsApp Float -->
+    <a href="https://wa.me/34600000000?text=Hola,%20quiero%20info%20sobre%20el%20carnet" target="_blank" class="fixed bottom-6 right-6 z-50 bg-[#25D366] text-white p-4 rounded-full shadow-xl hover:scale-110 transition-transform flex items-center gap-2 group">
+        <i class="fab fa-whatsapp text-2xl"></i>
+        <span class="max-w-0 overflow-hidden group-hover:max-w-xs transition-all duration-500 whitespace-nowrap font-bold">¡Escríbenos!</span>
+    </a>
+
+    <!-- Nav -->
+    <nav class="fixed w-full bg-white/90 backdrop-blur-md z-40 border-b border-slate-100">
+        <div class="container mx-auto px-6 h-20 flex justify-between items-center">
+            <a href="index.html" class="flex items-center gap-2">
+                <div class="w-10 h-10 bg-auto-primary rounded-xl flex items-center justify-center text-white font-head font-bold text-xl shadow-lg shadow-auto-primary/30">S</div>
+                <span class="font-head font-bold text-xl text-auto-dark tracking-tight">Autoescuela<span class="text-auto-primary">Salamanca</span></span>
+            </a>
+            
+            <div class="hidden md:flex gap-8 font-medium text-sm text-slate-500">
+                <a href="index.html" class="text-auto-primary font-bold">Inicio</a>
+                <a href="metodo.html" class="hover:text-auto-primary transition-colors">Método Online</a>
+                <a href="amaxofobia.html" class="hover:text-auto-primary transition-colors">Amaxofobia</a>
+                <a href="contacto.html" class="hover:text-auto-primary transition-colors">Contacto</a>
+            </div>
+
+            <a href="contacto.html" class="hidden md:block bg-auto-dark text-white px-6 py-2.5 rounded-full font-bold hover:bg-auto-primary transition-colors shadow-lg hover:shadow-xl hover:-translate-y-0.5 transform duration-200">
+                Matricúlate Online
+            </a>
+        </div>
+    </nav>
+
+    <!-- Hero -->
+    <header class="relative pt-32 pb-20 lg:pt-48 lg:pb-32 bg-auto-light overflow-hidden">
+        <div class="container mx-auto px-6 relative z-10 grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+            <div>
+                <span class="inline-block px-4 py-1.5 bg-white text-auto-primary font-bold text-xs rounded-full shadow-sm mb-6 border border-auto-primary/10">🎓 Aprobado a la primera garantizado*</span>
+                <h1 class="text-5xl lg:text-7xl font-head font-extrabold text-auto-dark mb-6 leading-tight">
+                    Tu carnet de conducir <br>
+                    <span class="text-transparent bg-clip-text bg-gradient-to-r from-auto-primary to-purple-600">en tiempo récord.</span>
+                </h1>
+                <p class="text-xl text-slate-500 mb-10 leading-relaxed max-w-lg">
+                    Olvídate de las clases aburridas. Estudia con nuestra app inteligente, tests de examen reales y conduce los coches más modernos de Salamanca.
+                </p>
+                <div class="flex flex-col sm:flex-row gap-4">
+                    <a href="contacto.html" class="bg-auto-primary text-white px-8 py-4 rounded-2xl font-bold text-lg text-center hover:bg-auto-dark transition-all shadow-xl shadow-auto-primary/20">
+                        Empezar Ahora
+                    </a>
+                    <a href="metodo.html" class="bg-white text-auto-dark border border-slate-200 px-8 py-4 rounded-2xl font-bold text-lg text-center hover:border-auto-primary transition-all flex items-center justify-center gap-2">
+                        <i class="fas fa-play-circle text-auto-primary"></i> Ver el Método
+                    </a>
+                </div>
+                
+                <div class="mt-12 flex items-center gap-4 text-sm font-bold text-slate-500">
+                    <div class="flex -space-x-2">
+                        <img class="w-10 h-10 rounded-full border-2 border-white" src="https://api.dicebear.com/7.x/avataaars/svg?seed=Alex" alt="Alumno">
+                        <img class="w-10 h-10 rounded-full border-2 border-white" src="https://api.dicebear.com/7.x/avataaars/svg?seed=Maria" alt="Alumno">
+                        <img class="w-10 h-10 rounded-full border-2 border-white" src="https://api.dicebear.com/7.x/avataaars/svg?seed=Juan" alt="Alumno">
+                    </div>
+                    <p>+1.200 alumnos aprobados este año</p>
+                </div>
+            </div>
+            
+            <div class="relative">
+                <div class="absolute -inset-4 bg-gradient-to-r from-auto-primary to-purple-600 rounded-[3rem] blur-2xl opacity-20 animate-pulse"></div>
+                <img src="https://images.unsplash.com/photo-1658373498745-69fadb8b3925?ixlib=rb-4.1.0&q=80" class="relative rounded-[3rem] shadow-2xl border-8 border-white w-full object-cover transform rotate-2 hover:rotate-0 transition-transform duration-500" alt="Estudiante feliz conduciendo">
+                
+                <!-- Floating Card -->
+                <div class="absolute -bottom-6 -left-6 bg-white p-6 rounded-2xl shadow-xl border border-slate-100 max-w-xs animate-bounce duration-[3000ms]">
+                    <div class="flex items-center gap-4 mb-2">
+                        <div class="w-10 h-10 bg-green-100 rounded-full flex items-center justify-center text-green-600"><i class="fas fa-check"></i></div>
+                        <div>
+                            <p class="font-bold text-slate-900">¡Apta!</p>
+                            <p class="text-xs text-slate-500">Examen Práctico</p>
+                        </div>
+                    </div>
+                    <div class="w-full bg-slate-100 h-2 rounded-full overflow-hidden">
+                        <div class="bg-green-500 h-full w-full"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Features -->
+    <section class="py-24 bg-white">
+        <div class="container mx-auto px-6">
+            <div class="text-center max-w-3xl mx-auto mb-20">
+                <span class="text-auto-primary font-bold uppercase tracking-widest text-sm">¿Por qué nosotros?</span>
+                <h2 class="text-3xl md:text-4xl font-head font-bold text-auto-dark mt-2">La autoescuela adaptada a tu vida digital</h2>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="p-8 rounded-3xl bg-slate-50 hover:bg-auto-light transition-colors group border border-slate-100 hover:border-auto-primary/20">
+                    <div class="w-14 h-14 bg-white rounded-2xl flex items-center justify-center text-3xl shadow-sm mb-6 text-auto-primary group-hover:scale-110 transition-transform">📱</div>
+                    <h3 class="text-xl font-bold text-auto-dark mb-3">App Inteligente</h3>
+                    <p class="text-slate-600 leading-relaxed">Practica tests oficiales desde el móvil, tablet o PC. Nuestro algoritmo detecta tus fallos y te ayuda a corregirlos.</p>
+                </div>
+                <div class="p-8 rounded-3xl bg-slate-50 hover:bg-auto-light transition-colors group border border-slate-100 hover:border-auto-primary/20">
+                    <div class="w-14 h-14 bg-white rounded-2xl flex items-center justify-center text-3xl shadow-sm mb-6 text-auto-primary group-hover:scale-110 transition-transform">⚡</div>
+                    <h3 class="text-xl font-bold text-auto-dark mb-3">Intensivos Express</h3>
+                    <p class="text-slate-600 leading-relaxed">Cursos de fin de semana o semanas intensivas. Te preparamos para el teórico en tan solo 5 días.</p>
+                </div>
+                <div class="p-8 rounded-3xl bg-slate-50 hover:bg-auto-light transition-colors group border border-slate-100 hover:border-auto-primary/20">
+                    <div class="w-14 h-14 bg-white rounded-2xl flex items-center justify-center text-3xl shadow-sm mb-6 text-auto-primary group-hover:scale-110 transition-transform">🚗</div>
+                    <h3 class="text-xl font-bold text-auto-dark mb-3">Flota Moderna</h3>
+                    <p class="text-slate-600 leading-relaxed">Aprende con vehículos nuevos, equipados con las últimas ayudas a la conducción (ADAS) para tu seguridad.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Amaxofobia Highlight -->
+    <section class="py-24 bg-auto-dark text-white relative overflow-hidden">
+        <div class="absolute top-0 right-0 w-1/2 h-full bg-auto-primary/10 rounded-l-full"></div>
+        <div class="container mx-auto px-6 relative z-10">
+            <div class="flex flex-col lg:flex-row items-center gap-16">
+                <div class="w-full lg:w-1/2">
+                    <span class="bg-auto-accent text-auto-dark px-4 py-1 rounded-full text-xs font-bold uppercase tracking-wide mb-6 inline-block">Especialistas</span>
+                    <h2 class="text-4xl md:text-5xl font-head font-bold mb-6">¿Miedo a conducir? <br>Podemos ayudarte.</h2>
+                    <p class="text-lg text-slate-300 mb-8 leading-relaxed">
+                        La amaxofobia es más común de lo que crees. Contamos con psicólogos y profesores especializados para que recuperes la confianza al volante de forma progresiva y segura.
+                    </p>
+                    <ul class="space-y-4 mb-10">
+                        <li class="flex items-center gap-3"><i class="fas fa-check-circle text-auto-primary"></i> Terapia personalizada</li>
+                        <li class="flex items-center gap-3"><i class="fas fa-check-circle text-auto-primary"></i> Prácticas en circuito cerrado</li>
+                        <li class="flex items-center gap-3"><i class="fas fa-check-circle text-auto-primary"></i> Vehículos de doble mando</li>
+                    </ul>
+                    <a href="amaxofobia.html" class="inline-block border border-white text-white px-8 py-3 rounded-xl font-bold hover:bg-white hover:text-auto-dark transition-colors">
+                        Saber más sobre Amaxofobia
+                    </a>
+                </div>
+                <div class="w-full lg:w-1/2">
+                    <img src="https://images.unsplash.com/photo-1731834451628-5f591a73a3c3?ixlib=rb-4.1.0&q=80" class="rounded-3xl shadow-2xl border-4 border-white/10" alt="Conducción tranquila">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing / CTA -->
+    <section class="py-24 bg-auto-light">
+        <div class="container mx-auto px-6 text-center">
+            <h2 class="text-3xl md:text-4xl font-head font-bold text-auto-dark mb-12">Empieza tu viaje hoy</h2>
+            <div class="max-w-4xl mx-auto bg-white rounded-[2rem] p-12 shadow-xl border border-slate-100 flex flex-col md:flex-row items-center justify-between gap-8">
+                <div class="text-left">
+                    <h3 class="text-2xl font-bold text-auto-dark mb-2">Matrícula Online</h3>
+                    <p class="text-slate-500">Acceso inmediato al aula virtual y tutor 24h.</p>
+                </div>
+                <div class="text-center md:text-right">
+                    <p class="text-lg text-slate-400 line-through">150€</p>
+                    <p class="text-5xl font-black text-auto-primary">49€<span class="text-lg font-medium text-slate-500">/mes</span></p>
+                </div>
+                <a href="contacto.html" class="bg-auto-accent text-white px-10 py-4 rounded-xl font-bold text-lg hover:bg-yellow-600 transition-colors shadow-lg hover:shadow-xl w-full md:w-auto">
+                    Matricularme
+                </a>
+            </div>
+            <p class="mt-6 text-sm text-slate-500">Sin permanencia. Cancela cuando quieras.</p>
+        </div>
+    </section>
+
+    <footer class="bg-white border-t border-slate-100 py-12">
+        <div class="container mx-auto px-6 text-center">
+            <div class="flex items-center justify-center gap-2 mb-8">
+                <div class="w-8 h-8 bg-auto-dark rounded-lg flex items-center justify-center text-white font-head font-bold">S</div>
+                <span class="font-head font-bold text-xl text-auto-dark">Autoescuela Salamanca</span>
+            </div>
+            <div class="flex justify-center gap-8 mb-8 text-sm font-medium text-slate-600">
+                <a href="metodo.html" class="hover:text-auto-primary">Método</a>
+                <a href="amaxofobia.html" class="hover:text-auto-primary">Amaxofobia</a>
+                <a href="contacto.html" class="hover:text-auto-primary">Contacto</a>
+                <a href="#" class="hover:text-auto-primary">Aviso Legal</a>
+            </div>
+            <p class="text-xs text-slate-400">© 2026 Autoescuela Salamanca Pro. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
